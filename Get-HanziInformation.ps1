@@ -1,3 +1,5 @@
+Clear-Host
+
 $caminoProyecto = $PSScriptRoot
 
 $CSSBase = Get-Content -Path "$caminoProyecto\assets\styleCSSBase.css" -Raw
