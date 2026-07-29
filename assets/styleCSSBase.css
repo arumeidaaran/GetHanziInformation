@@ -1,0 +1,49 @@
+body {
+    font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    margin: 40px;
+    background: #2c2727;
+    color: white;
+}
+
+.card {
+    max-width: 900px;
+    margin: auto;
+    background: black;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgb(95, 85, 85);
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    vertical-align: top;
+}
+
+td:first-child {
+    width: 180px;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-family: inherit;
+    margin: 0;
+}
+
+img {
+    max-width: 300px;
+}
